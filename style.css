@@ -6,7 +6,7 @@
 }
 /*Corpo */
 body{
-    background-image: linear-gradient(45deg, #eca90091, rgba(165, 42, 42, 0.402));
+    background-image: linear-gradient(45deg, #d6d0e1, rgb(255, 136, 1));
 }
 
 
@@ -34,17 +34,22 @@ nav{
     margin-bottom: 40px;
 }
 nav a{
+    
+    padding-inline: 7px;
     text-decoration: none;
+    font-weight: bold;
     color: white;
     display: inline-block;
-    text-align: right;
+    text-align: center;
     transition-duration: 700ms;
     padding-right: 7px;
 }
 
 nav a:hover{
-    transition-duration: 500ms;
-    color: #72583D;
+    transition-duration: 700ms;
+    color: #4b361f;
+    
+
 }
 
 /*Texto Principal(conteudo)*/
@@ -54,16 +59,15 @@ main{
 }
 article{
     text-align: center;
-    background-color: beige;
-    width: 85%;
+    background-color: rgba(245, 245, 220, 0.368);
+    width: 75%;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 30px;
     padding-bottom: 20px;
 }
 article h2{
     padding-top: 20px;
-    padding-left: 15%;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     font-weight: bold;
 }
